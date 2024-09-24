@@ -25,7 +25,7 @@
                 <div class="container mx-auto py-5 px-5">
                     <div class="parents flex  justify-between ">
                         <div>
-                            <button class="btn text-xl bg-lime-300 px-8 ">Blog</button>
+                            <button id="btn-blog" class="btn text-xl bg-lime-300 px-8 ">Blog</button>
                         </div>
 
                         <div class="flex items-center gap-4 " >
@@ -40,7 +40,7 @@
                                 <div class="flex items-center gap-2">
                                     <img src="./assets/coin.png" alt="">
                                 
-                                  <div class="text-2xl font-bold">89400</div>
+                                  <div id="total-balance" class="text-2xl font-bold">15000</div>
                                   <p class="font-bold">BDT</p>
                                  
                                 </div>
@@ -94,7 +94,7 @@
                                 <div class="flex items-center gap-2">
                                     <img src="./assets/coin.png" alt="">
                                 
-                                  <div class="text-xl font-bold">400</div>
+                                  <div id="donate-balance" class="text-xl font-bold">1000</div>
                                   <p class="font-bold">BDT</p>
                                  
                                 </div>
@@ -105,9 +105,9 @@
 
                         <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
 
-                       <div> <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full " /></div>
+                       <div> <input id="input-add-donate" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full " /></div>
 
-                        <button class="btn w-full text-xl font-semibold bg-lime-300 px-8 ">
+                        <button id="btn-add-donate" class="btn w-full text-xl font-semibold bg-lime-300 px-8 ">
                             Donate Now
                         </button>
 
@@ -224,6 +224,16 @@
 
         </div>
     </footer>
+
+<script src="./js/features.js"></script>
+
+<script src="./js/utility.js"></script>
+
+<script src="./js/donate.js"></script>
+
+
+
+    
 
   
     
