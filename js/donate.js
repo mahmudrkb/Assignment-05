@@ -9,12 +9,21 @@ document.getElementById('btn-add-donate')
     const balance=getTextValueById("donate-balance");
 
     if(isNaN(addDonate) || addDonate<=0 || addDonate>totalMoney ){
-        alert("Invalid Donation Amount");
+       
 
-        return;
+        
+
+         alert("Invalid Donation Amount");
+         
+         hiddenModelById('my_modal_1');
+         
+         
+
+        return  ;
+        
 
     }
-    else{
+    
 
         const donateBalance= balance + addDonate;
 
@@ -27,7 +36,9 @@ document.getElementById('btn-add-donate')
             document.getElementById('total-balance').innerText= myTotalBalance;
 
 
-            // alert('Donation Successful')
+            alert('Donation Successful');
+
+           
 
 
 
@@ -47,11 +58,13 @@ document.getElementById('btn-add-donate')
 
 
          document.getElementById("transaction-container").appendChild(p);
+
+          
     
 
 
 
-    }
+   
     
 
     

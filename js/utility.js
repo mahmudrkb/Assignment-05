@@ -45,4 +45,10 @@ function showBgSectionById(id){
 
     document.getElementById(id).classList.add('bg-lime-300');
 
+};
+
+function hiddenModelById(id){
+
+    document.getElementById(id).classList.add('hidden');
+
 }
