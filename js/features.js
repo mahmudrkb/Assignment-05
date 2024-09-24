@@ -13,6 +13,35 @@ document.getElementById("btn-blog")
 });
 
 
+document.getElementById("btn-donation")
+.addEventListener('click',function(){
+   
+
+   
+
+    showSectionById("main-section");
+
+    showBgSectionById("btn-donation")
+
+    
+
+
+});
+
+document.getElementById("btn-history")
+.addEventListener('click',function(){
+
+
+    showSectionById("transaction-section");
+
+    showBgSectionById("btn-history");
+
+
+});
+
+
+
+
 
 
 

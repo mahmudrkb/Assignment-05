@@ -20,4 +20,29 @@ function getTextValueById(id){
 
     return textNumber;
 
+};
+
+
+
+function showSectionById(id){
+
+    document.getElementById("main-section").classList.add('hidden');
+    document.getElementById("transaction-section").classList.add('hidden');
+
+    // show id 
+
+    document.getElementById(id).classList.remove('hidden');
+
+   
+
+};
+
+
+function showBgSectionById(id){
+
+    document.getElementById('btn-donation').classList.remove('bg-lime-300');
+    document.getElementById('btn-history').classList.remove('bg-lime-300');
+
+    document.getElementById(id).classList.add('bg-lime-300');
+
 }

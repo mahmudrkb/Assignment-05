@@ -1,12 +1,12 @@
-document.getElementById('btn-add-donate')
+document.getElementById('btn-add-donate3')
 .addEventListener('click',function(event){
     event.preventDefault();
 
     const totalMoney= getTextValueById('total-balance');
 
-    const addDonate= getInputValueById('input-add-donate');
+    const addDonate= getInputValueById('input-add-donate3');
  
-    const balance=getTextValueById("donate-balance");
+    const balance=getTextValueById("donate-balance3");
 
     if(isNaN(addDonate) || addDonate<=0 || addDonate>totalMoney ){
         alert("Invalid Donation Amount");
@@ -22,7 +22,7 @@ document.getElementById('btn-add-donate')
            
      
     
-            document.getElementById('donate-balance').innerText= donateBalance;
+            document.getElementById('donate-balance3').innerText= donateBalance;
     
             document.getElementById('total-balance').innerText= myTotalBalance;
 
