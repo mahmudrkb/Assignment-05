@@ -27,7 +27,7 @@ document.getElementById('btn-add-donate')
             document.getElementById('total-balance').innerText= myTotalBalance;
 
 
-            alert('Donation Successful')
+            // alert('Donation Successful')
 
 
 
@@ -37,10 +37,10 @@ document.getElementById('btn-add-donate')
 
          const p = document.createElement('p');
 
-         p.innerText = `Donate ${addDonate} tk. My Balance ${myTotalBalance} tk.
+         p.innerText = ` ${addDonate} Taka is Donated for famine-2024 at Noakhali, Bangladesh
 
                         Date: ${transactionTimes}
-                        
+
                         `;
 
  
