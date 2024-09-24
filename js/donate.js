@@ -8,6 +8,8 @@ document.getElementById('btn-add-donate')
  
     const balance=getTextValueById("donate-balance");
 
+    let showM=document.getElementById("my_modal_1");
+
     if(isNaN(addDonate) || addDonate<=0 || addDonate>totalMoney ){
        
 
@@ -15,7 +17,7 @@ document.getElementById('btn-add-donate')
 
          alert("Invalid Donation Amount");
          
-         hiddenModelById('my_modal_1');
+       
          
          
 
@@ -24,6 +26,8 @@ document.getElementById('btn-add-donate')
 
     }
     
+
+   
 
         const donateBalance= balance + addDonate;
 
@@ -37,6 +41,7 @@ document.getElementById('btn-add-donate')
 
 
             alert('Donation Successful');
+            showM.showModal();
 
            
 

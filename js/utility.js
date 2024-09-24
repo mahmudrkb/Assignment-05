@@ -47,8 +47,3 @@ function showBgSectionById(id){
 
 };
 
-function hiddenModelById(id){
-
-    document.getElementById(id).classList.add('hidden');
-
-}
